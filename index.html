@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - B&amp;W Login Screen</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <!-- Create a new account -->
+  <div id="create-account">
+    <h1>Create new Account</h1>
+    <h2>Already registered? Log in <span id="login-here">here</span>.</h2>
+    <form>
+      <label for="name">name:</label>
+      <input required type="text" name="name" id="name">
+      <label for="email">email:</label>
+      <input required type="email" name="email" id="email">
+      <label for="password">password:</label>
+      <input required type="password" name="password" id="password">
+      <label for="dob">date of birth:</label>
+      <input required type="date" name="dob" id="dob">
+      <button>Sign up</button>
+    </form>
+  </div>
+  <!-- Login -->
+  <div id="login" class="hidden">
+    <h1>Login</h1>
+    <h2>Sign in to continue</h2>
+    <form>
+      <label for="email">email:</label>
+      <input required type="email" name="email" id="email">
+      <label for="password">password:</label>
+      <input required type="password" name="password" id="password">
+      <span id="forgot-password">Forgot password?</span>
+      <button>Login</button>
+    </form>
+  </div>
+  <!-- Forgot Password -->
+  <div id="forgot-pw" class="hidden">
+    <h1>Forgot Password</h1>
+    <h2>New password</h2>
+    <form>
+      <label for="email">email:</label>
+      <input required type="email" name="email" id="email">
+      <button>Send</button>
+  </div>
+  </form>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

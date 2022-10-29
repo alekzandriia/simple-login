@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Rubik&display=swap");
+
+body {
+  font-family: poppins, sans serif;
+  background: black;
+  color: white;
+}
+
+#login-here:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+main {
+  max-width: 30rem;
+  margin: auto;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+#forgot-password {
+  font-size: 0.75rem;
+  text-align: right;
+  padding: 0.5rem;
+}
+#forgot-password:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  background: transparent;
+  border: 0.1rem solid white;
+  padding: 0.5rem;
+  color: white;
+  cursor: text;
+}
+
+button {
+  max-width: 5rem;
+  padding: 0.5rem;
+  background: white;
+  color: black;
+  border: none;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
