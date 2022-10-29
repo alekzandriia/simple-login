@@ -11,4 +11,5 @@ If the user already has an account they have the option to click 'Login Here' wh
 #### Forgot Password
 If the user already has an account, but have forgotten their password, they can click on 'Forgot Password' which asks for the user to enter their email.
 
-Form endpoint via [Form Submit](https://formsubmit.co/) 
+*** Results of the form will be submitted *** 
+Endpoint via [Form Submit](https://formsubmit.co/) 
